@@ -1,12 +1,12 @@
 {
   "profile": {
     "name": "Deepak Kushwaha",
-    "title": "Integration Architect — MuleSoft · Boomi · Salesforce",
-    "tagline": "10+ years designing and delivering enterprise integration solutions.",
-    "about": "Integration specialist with 10+ years of experience in the analysis, design, and development of enterprise integration solutions. I help organisations connect their applications and data using API-led connectivity and modern iPaaS platforms — primarily MuleSoft Anypoint Platform, Dell Boomi, Salesforce, and Oracle SOA Suite.",
-    "email": "deepak.kushwaha@fusion5.com.au",
+    "title": "Principal Integration Consultant @ Fusion5",
+    "tagline": "MuleSoft Mentor · 6x MuleSoft · 6x Microsoft · AWS · Salesforce · Boomi · Oracle Certified",
+    "about": "Integration specialist with 10+ years of experience in the analysis, design, and development of enterprise applications using MuleSoft, SOA, AWS, Terraform, Java/J2EE and database technologies. Strong background in Service-Oriented Architecture and related technologies (Web Services, WSDL, SOAP, XML, XSD, XSLT and web service security), with deep hands-on expertise across MuleSoft (DataWeave, connectors), Oracle SOA Suite, Kong API Gateway and Service Mesh, event-driven integration, and Kubernetes-based deployments on AWS EKS / Runtime Fabric.",
+    "email": "deepakkushwaha413@gmail.com",
     "phone": "",
-    "location": "Brisbane, Queensland, Australia",
+    "location": "Brisbane City, Queensland, Australia",
     "photo": "",
     "resumeUrl": "",
     "social": {
@@ -18,128 +18,155 @@
   },
   "experience": [
     {
-      "role": "Integration Consultant / Architect",
-      "company": "IntegrationWorks (a Fusion5 company)",
+      "role": "Principal Integration Consultant",
+      "company": "Fusion5",
       "location": "Brisbane, Australia",
-      "start": "",
+      "start": "Aug 2024",
       "end": "",
       "current": true,
-      "description": "Design and delivery of enterprise integration solutions for clients using MuleSoft, Dell Boomi and Salesforce. [Add your start date and refine this description in admin.html]"
+      "logo": "https://www.google.com/s2/favicons?domain=fusion5.com&sz=128",
+      "description": "Leading enterprise integration strategy and delivery for clients, with a focus on MuleSoft, API management, event-driven architecture and cloud-native deployments."
     },
     {
-      "role": "Technology Architect",
-      "company": "Accenture",
-      "location": "India",
-      "start": "",
+      "role": "C4E Lead",
+      "company": "Department of Transport and Main Roads",
+      "location": "Brisbane, Australia",
+      "start": "Aug 2022",
       "end": "",
+      "current": true,
+      "logo": "https://www.google.com/s2/favicons?domain=tmr.qld.gov.au&sz=128",
+      "description": "Center for Enablement (C4E) Lead driving integration excellence, standards and technical design leadership. Manage the MuleSoft DevOps platform (AWS API Gateway, EKS, CI/CD pipelines), Infrastructure as Code with Terraform, and the efficient operation of MuleSoft Runtime Fabric on Kubernetes."
+    },
+    {
+      "role": "Senior Integration Consultant",
+      "company": "IntegrationWorks",
+      "location": "Brisbane, Australia",
+      "start": "Jul 2020",
+      "end": "Aug 2024",
       "current": false,
-      "description": "Enterprise integration and SOA solution architecture. [Inferred from your Accenture certification — confirm role/dates or remove in admin.html]"
+      "logo": "https://www.google.com/s2/favicons?domain=integrationworks.com&sz=128",
+      "description": "Delivered integration solutions and led digital transformation for clients across diverse domains using MuleSoft, Kong API Gateway, Kong Service Mesh, AWS, EKS and Kubernetes. Owned solution architecture, bespoke software development, MuleSoft connector development/certification, and internal methodology and knowledge base."
+    },
+    {
+      "role": "Integration Lead",
+      "company": "Culture Kings",
+      "location": "Brisbane, Australia",
+      "start": "Jun 2021",
+      "end": "Jul 2022",
+      "current": false,
+      "logo": "https://www.google.com/s2/favicons?domain=culturekings.com.au&sz=128",
+      "description": "Led integration of inventory, order processing and fulfilment systems with the CRM platform. Architected scalable, resilient solutions for peak sales events and pioneered event-driven integrations with Anypoint MQ for real-time data synchronisation. Mentored a team of MuleSoft developers."
+    },
+    {
+      "role": "Tech Arch Delivery Specialist",
+      "company": "Accenture Australia",
+      "location": "Melbourne, Australia",
+      "start": "Dec 2019",
+      "end": "Apr 2020",
+      "current": false,
+      "logo": "https://www.google.com/s2/favicons?domain=accenture.com&sz=128",
+      "description": "Technology architecture delivery across enterprise integration engagements."
+    },
+    {
+      "role": "Tech Arch Senior Analyst",
+      "company": "Accenture Australia",
+      "location": "Melbourne, Australia",
+      "start": "Aug 2018",
+      "end": "Nov 2019",
+      "current": false,
+      "logo": "https://www.google.com/s2/favicons?domain=accenture.com&sz=128",
+      "description": "Technology architecture and integration delivery."
+    },
+    {
+      "role": "Technology Architecture Senior Analyst",
+      "company": "Accenture",
+      "location": "Pune, India",
+      "start": "Nov 2017",
+      "end": "Aug 2018",
+      "current": false,
+      "logo": "https://www.google.com/s2/favicons?domain=accenture.com&sz=128",
+      "description": "Integration and SOA solution delivery."
+    },
+    {
+      "role": "Application Development Analyst",
+      "company": "Accenture",
+      "location": "Bengaluru, India",
+      "start": "Aug 2016",
+      "end": "Nov 2017",
+      "current": false,
+      "logo": "https://www.google.com/s2/favicons?domain=accenture.com&sz=128",
+      "description": "Open-source SME within Accenture's Open Source capability. Designed and implemented high-end web services using Mule ESB, built Web APIs to integrate cloud CRM/ERP (e.g. Salesforce) with other tools, created POCs for new integration solutions, and set up DevOps (CI/CD) with the Atlassian suite."
+    },
+    {
+      "role": "Application Developer",
+      "company": "Fujitsu Consulting India",
+      "location": "Noida, India",
+      "start": "Mar 2014",
+      "end": "Aug 2016",
+      "current": false,
+      "logo": "https://www.google.com/s2/favicons?domain=fujitsu.com&sz=128",
+      "description": "Development of enterprise applications and integration components."
     }
   ],
   "skills": [
-    { "name": "MuleSoft Anypoint Platform", "category": "Integration Platforms", "level": 90 },
-    { "name": "Dell Boomi", "category": "Integration Platforms", "level": 80 },
-    { "name": "Oracle SOA Suite", "category": "Integration Platforms", "level": 80 },
-    { "name": "Salesforce", "category": "Platforms & CRM", "level": 80 },
-    { "name": "API-led Connectivity", "category": "Architecture", "level": 90 },
-    { "name": "Solution Architecture", "category": "Architecture", "level": 85 },
-    { "name": "Enterprise Integration Patterns", "category": "Architecture", "level": 85 },
-    { "name": "REST & SOAP APIs", "category": "Engineering", "level": 90 },
-    { "name": "DataWeave", "category": "Engineering", "level": 80 },
-    { "name": "Java", "category": "Engineering", "level": 75 }
+    { "name": "MuleSoft Anypoint Platform", "category": "Integration & APIs", "level": 95 },
+    { "name": "Kong API Gateway", "category": "Integration & APIs", "level": 85 },
+    { "name": "Kong Service Mesh", "category": "Integration & APIs", "level": 85 },
+    { "name": "Oracle SOA Suite", "category": "Integration & APIs", "level": 80 },
+    { "name": "Dell Boomi", "category": "Integration & APIs", "level": 75 },
+    { "name": "REST, SOAP & RAML", "category": "Integration & APIs", "level": 90 },
+    { "name": "AWS (EKS, API Gateway)", "category": "Cloud & DevOps", "level": 85 },
+    { "name": "Microsoft Azure", "category": "Cloud & DevOps", "level": 75 },
+    { "name": "Kubernetes & Runtime Fabric", "category": "Cloud & DevOps", "level": 85 },
+    { "name": "Terraform (IaC)", "category": "Cloud & DevOps", "level": 80 },
+    { "name": "CI/CD Pipelines", "category": "Cloud & DevOps", "level": 85 },
+    { "name": "Event-Driven Architecture", "category": "Messaging & Events", "level": 90 },
+    { "name": "Apache Kafka", "category": "Messaging & Events", "level": 80 },
+    { "name": "Anypoint MQ & Solace", "category": "Messaging & Events", "level": 80 },
+    { "name": "Java / J2EE & Spring", "category": "Languages & Frameworks", "level": 80 },
+    { "name": "DataWeave", "category": "Languages & Frameworks", "level": 90 },
+    { "name": "Salesforce", "category": "Platforms", "level": 75 },
+    { "name": "Agentforce", "category": "Platforms", "level": 75 }
   ],
   "certifications": [
+    { "name": "Salesforce Certified AI Associate", "issuer": "Salesforce", "date": "Jan 2025", "expiry": "Jan 2027", "credentialId": "", "url": "", "image": "https://www.google.com/s2/favicons?domain=salesforce.com&sz=128" },
+    { "name": "AWS Certified Solutions Architect – Associate", "issuer": "Amazon Web Services (AWS)", "date": "May 2024", "expiry": "May 2027", "credentialId": "", "url": "", "image": "https://www.google.com/s2/favicons?domain=aws.amazon.com&sz=128" },
+    { "name": "MuleSoft Certified Catalyst Specialist", "issuer": "MuleSoft", "date": "Feb 2023", "expiry": "Feb 2025", "credentialId": "", "url": "", "image": "https://www.google.com/s2/favicons?domain=mulesoft.com&sz=128" },
+    { "name": "Kong Mesh Foundations", "issuer": "Kong", "date": "Jan 2023", "expiry": "", "credentialId": "", "url": "", "image": "https://www.google.com/s2/favicons?domain=konghq.com&sz=128" },
+    { "name": "MuleSoft Certified Integration Associate", "issuer": "MuleSoft", "date": "Nov 2022", "expiry": "Nov 2024", "credentialId": "c13e1ce7-3603-11ed-b5a6-0cc47a352292", "url": "", "image": "https://www.google.com/s2/favicons?domain=mulesoft.com&sz=128" },
+    { "name": "Microsoft Certified: Azure Developer Associate", "issuer": "Microsoft", "date": "Sep 2022", "expiry": "Sep 2023", "credentialId": "I419-9680", "url": "", "image": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128" },
+    { "name": "MuleSoft Certified Developer - Level 2", "issuer": "MuleSoft", "date": "Aug 2022", "expiry": "Aug 2024", "credentialId": "", "url": "", "image": "https://www.google.com/s2/favicons?domain=mulesoft.com&sz=128" },
+    { "name": "Kong Mesh Operations", "issuer": "Kong", "date": "Jul 2022", "expiry": "", "credentialId": "", "url": "", "image": "https://www.google.com/s2/favicons?domain=konghq.com&sz=128" },
+    { "name": "Kong Gateway Foundations", "issuer": "Kong", "date": "Jul 2022", "expiry": "", "credentialId": "", "url": "", "image": "https://www.google.com/s2/favicons?domain=konghq.com&sz=128" },
+    { "name": "MuleSoft Certified Integration Architect - Level 1", "issuer": "MuleSoft", "date": "Mar 2022", "expiry": "Mar 2024", "credentialId": "2b3a0c6f-f4ef-3394-8d46-70ff0a3d7627", "url": "", "image": "https://www.google.com/s2/favicons?domain=mulesoft.com&sz=128" },
+    { "name": "MuleSoft Certified Platform Architect - Level 1", "issuer": "MuleSoft", "date": "Jul 2021", "expiry": "Jul 2023", "credentialId": "56c5dd0c-8d76-35a0-bc34-67ef77f650c0", "url": "", "image": "https://www.google.com/s2/favicons?domain=mulesoft.com&sz=128" },
+    { "name": "MuleSoft Certified Developer - Level 1 (Mule 4)", "issuer": "MuleSoft", "date": "Mar 2021", "expiry": "Mar 2023", "credentialId": "", "url": "", "image": "https://www.google.com/s2/favicons?domain=mulesoft.com&sz=128" },
+    { "name": "Microsoft Certified: Azure Data Fundamentals", "issuer": "Microsoft", "date": "Mar 2021", "expiry": "", "credentialId": "", "url": "", "image": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128" },
+    { "name": "Red Hat Delivery Specialist - Container Platform Application Deployment", "issuer": "Red Hat", "date": "Mar 2021", "expiry": "Mar 2023", "credentialId": "", "url": "", "image": "https://www.google.com/s2/favicons?domain=redhat.com&sz=128" },
+    { "name": "Accredited - Confluent Fundamentals for Apache Kafka", "issuer": "Confluent", "date": "Feb 2021", "expiry": "", "credentialId": "29271503", "url": "", "image": "https://www.google.com/s2/favicons?domain=confluent.io&sz=128" },
+    { "name": "AWS Certified Cloud Practitioner", "issuer": "Amazon Web Services (AWS)", "date": "Feb 2021", "expiry": "Feb 2024", "credentialId": "", "url": "", "image": "https://www.google.com/s2/favicons?domain=aws.amazon.com&sz=128" },
+    { "name": "Solace Certified Solutions Consultant", "issuer": "Solace", "date": "Jan 2021", "expiry": "", "credentialId": "1eca1544ee8e0baccf0c6c0c8296f3bc8e1e8af3", "url": "", "image": "https://www.google.com/s2/favicons?domain=solace.com&sz=128" },
+    { "name": "Microsoft Certified: Azure AI Fundamentals", "issuer": "Microsoft", "date": "Jan 2021", "expiry": "", "credentialId": "", "url": "", "image": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128" },
+    { "name": "Microsoft Certified: Dynamics 365 Fundamentals (MB-901)", "issuer": "Microsoft", "date": "Dec 2020", "expiry": "", "credentialId": "H613-5886", "url": "", "image": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128" },
+    { "name": "Microsoft Certified: Power Platform Fundamentals", "issuer": "Microsoft", "date": "Dec 2020", "expiry": "", "credentialId": "", "url": "", "image": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128" },
+    { "name": "Microsoft Certified: Azure Fundamentals", "issuer": "Microsoft", "date": "Nov 2020", "expiry": "", "credentialId": "", "url": "", "image": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128" },
+    { "name": "Dell Boomi Associate Developer", "issuer": "Boomi", "date": "Apr 2020", "expiry": "", "credentialId": "b75275b0-488d-4dbc-a9e5-672aa29f8b48", "url": "", "image": "https://www.google.com/s2/favicons?domain=boomi.com&sz=128" },
+    { "name": "Salesforce Certified Platform App Builder", "issuer": "Salesforce", "date": "Apr 2019", "expiry": "", "credentialId": "20004424", "url": "", "image": "https://www.google.com/s2/favicons?domain=salesforce.com&sz=128" },
+    { "name": "MCD - Integration and API Associate (Mule 3.9)", "issuer": "MuleSoft", "date": "Mar 2019", "expiry": "Feb 2021", "credentialId": "adcb8fcc-c2bc-390e-bb71-24c068", "url": "", "image": "https://www.google.com/s2/favicons?domain=mulesoft.com&sz=128" },
+    { "name": "Technology Architect Associate", "issuer": "Accenture", "date": "Nov 2017", "expiry": "", "credentialId": "718115856", "url": "", "image": "https://www.google.com/s2/favicons?domain=accenture.com&sz=128" },
+    { "name": "Mule Certified Architect - Solution Design Specialist", "issuer": "MuleSoft", "date": "Oct 2017", "expiry": "", "credentialId": "5976beb3-689e-307f-8d8a-825ec01b174f", "url": "", "image": "https://www.google.com/s2/favicons?domain=mulesoft.com&sz=128" },
+    { "name": "1z0-434 Oracle SOA Suite 12c Essentials", "issuer": "Oracle", "date": "Jan 2016", "expiry": "", "credentialId": "OC1494753", "url": "", "image": "https://www.google.com/s2/favicons?domain=oracle.com&sz=128" },
+    { "name": "1Z0-478 Oracle SOA Suite 11g Essentials", "issuer": "Oracle", "date": "Jun 2015", "expiry": "", "credentialId": "", "url": "", "image": "https://www.google.com/s2/favicons?domain=oracle.com&sz=128" }
+  ],
+  "education": [
     {
-      "name": "MuleSoft Certified Integration Architect — Level 1",
-      "issuer": "MuleSoft",
-      "date": "Mar 2022",
-      "expiry": "2024",
-      "credentialId": "",
-      "url": "",
-      "image": ""
-    },
-    {
-      "name": "MuleSoft Certified Platform Architect — Level 1",
-      "issuer": "MuleSoft",
-      "date": "Jul 2021",
-      "expiry": "2023",
-      "credentialId": "",
-      "url": "",
-      "image": ""
-    },
-    {
-      "name": "MuleSoft Certified Developer — Level 1 (Mule 4)",
-      "issuer": "MuleSoft",
-      "date": "Mar 2021",
-      "expiry": "2023",
-      "credentialId": "",
-      "url": "",
-      "image": ""
-    },
-    {
-      "name": "Dell Boomi Associate Developer",
-      "issuer": "Dell Boomi",
-      "date": "Apr 2020",
-      "expiry": "",
-      "credentialId": "",
-      "url": "",
-      "image": ""
-    },
-    {
-      "name": "Salesforce Certified Platform App Builder",
-      "issuer": "Salesforce",
-      "date": "Apr 2019",
-      "expiry": "",
-      "credentialId": "",
-      "url": "",
-      "image": ""
-    },
-    {
-      "name": "Technology Architect Associate",
-      "issuer": "Accenture",
-      "date": "Nov 2017",
-      "expiry": "",
-      "credentialId": "",
-      "url": "",
-      "image": ""
-    },
-    {
-      "name": "Mule Certified Architect — Solution Design Specialist",
-      "issuer": "MuleSoft",
-      "date": "Oct 2017",
-      "expiry": "",
-      "credentialId": "",
-      "url": "",
-      "image": ""
-    },
-    {
-      "name": "Oracle SOA Suite 12c Essentials",
-      "issuer": "Oracle",
-      "date": "2016",
-      "expiry": "",
-      "credentialId": "",
-      "url": "",
-      "image": ""
-    },
-    {
-      "name": "Oracle SOA Suite 11g Essentials",
-      "issuer": "Oracle",
-      "date": "2015",
-      "expiry": "",
-      "credentialId": "",
-      "url": "",
-      "image": ""
+      "institution": "Rajiv Gandhi Prodyogiki Vishwavidyalaya",
+      "degree": "Bachelor of Engineering (B.E.)",
+      "field": "Computer Engineering",
+      "start": "2009",
+      "end": "2013",
+      "description": ""
     }
   ],
-  "projects": [
-    {
-      "title": "Enterprise Integration Platform",
-      "description": "API-led integration layer connecting CRM, ERP and third-party systems with reliable messaging, error handling and monitoring. [Replace with a real project or remove in admin.html]",
-      "tech": ["MuleSoft", "Anypoint Platform", "DataWeave", "REST APIs"],
-      "url": "",
-      "repo": "",
-      "image": "",
-      "featured": true
-    }
-  ]
+  "projects": []
 }

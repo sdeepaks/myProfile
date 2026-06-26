@@ -112,7 +112,8 @@ img { max-width: 100%; display: block; }
   content: ""; position: absolute; left: -26px; top: 6px; width: 12px; height: 12px;
   border-radius: 50%; background: var(--primary); box-shadow: 0 0 0 4px var(--bg);
 }
-.tl-item__head { display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: baseline; }
+.tl-item__head { display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: center; }
+.tl-item__logo { width: 26px; height: 26px; border-radius: 6px; object-fit: contain; background: #fff; padding: 2px; border: 1px solid var(--border); flex: none; }
 .tl-item__role { font-size: 1.15rem; font-weight: 700; }
 .tl-item__company { color: var(--primary); font-weight: 600; }
 .tl-item__date { margin-left: auto; color: var(--muted); font-size: .9rem; font-weight: 500; }

@@ -16,9 +16,22 @@
         { k: "start", l: "Start (e.g. 2022)" },
         { k: "end", l: "End (blank if current)" },
         { k: "current", l: "Current role", t: "check" },
+        { k: "logo", l: "Company logo URL (optional)", full: true },
         { k: "description", l: "Description", t: "textarea", full: true }
       ],
-      blank: { role: "", company: "", location: "", start: "", end: "", current: false, description: "" }
+      blank: { role: "", company: "", location: "", start: "", end: "", current: false, logo: "", description: "" }
+    },
+    education: {
+      label: (it) => it.institution || "New education",
+      fields: [
+        { k: "institution", l: "Institution", full: true },
+        { k: "degree", l: "Degree (e.g. B.E.)" },
+        { k: "field", l: "Field of study" },
+        { k: "start", l: "Start year" },
+        { k: "end", l: "End year" },
+        { k: "description", l: "Description (optional)", t: "textarea", full: true }
+      ],
+      blank: { institution: "", degree: "", field: "", start: "", end: "", description: "" }
     },
     skills: {
       label: (it) => it.name || "New skill",
@@ -61,7 +74,7 @@
     ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
   function defaults() {
-    return { profile: { name: "", title: "", tagline: "", about: "", email: "", phone: "", location: "", photo: "", resumeUrl: "", social: { github: "", linkedin: "", website: "", twitter: "" } }, experience: [], skills: [], certifications: [], projects: [] };
+    return { profile: { name: "", title: "", tagline: "", about: "", email: "", phone: "", location: "", photo: "", resumeUrl: "", social: { github: "", linkedin: "", website: "", twitter: "" } }, experience: [], education: [], skills: [], certifications: [], projects: [] };
   }
 
   function markDirty() {
@@ -204,22 +217,6 @@
   document.getElementById("previewBtn").addEventListener("click", () => {
     localStorage.setItem("profilePreview", JSON.stringify(data));
     window.open("index.html?preview=1", "_blank");
-  });
-
-  document.getElementById("importBtn").addEventListener("click", () => document.getElementById("importFile").click());
-  document.getElementById("importFile").addEventListener("change", (e) => {
-    const file = e.target.files[0];
-    if (!file) return;
-    const reader = new FileReader();
-    reader.onload = () => {
-      try {
-        data = Object.assign(defaults(), JSON.parse(reader.result));
-        data.profile = Object.assign(defaults().profile, data.profile || {});
-        bindProfile(); renderAll(); markDirty();
-        alert("Imported successfully.");
-      } catch (err) { alert("Invalid JSON file."); }
-    };
-    reader.readAsText(file);
   });
 
   document.getElementById("resetBtn").addEventListener("click", (e) => {
