@@ -82,9 +82,11 @@
       const end = e.current ? "Present" : (e.end || "");
       const dates = [e.start, end].filter(Boolean).join(" – ");
       const meta = [e.company, e.location].filter(Boolean).join(" · ");
+      const logo = e.logo ? '<img class="tl-item__logo" src="' + esc(e.logo) + '" alt="" loading="lazy">' : "";
       return (
         '<div class="tl-item">' +
         '<div class="tl-item__head">' +
+        logo +
         '<span class="tl-item__role">' + esc(e.role) + "</span>" +
         (dates ? '<span class="tl-item__date">' + esc(dates) + "</span>" : "") +
         "</div>" +
@@ -123,8 +125,32 @@
         "</div>";
     }).join("") : '<p class="empty">No certifications added yet.</p>';
 
-    // Projects (featured first)
+    // Education
+    const edu = data.education || [];
+    const eduEl = document.getElementById("educationList");
+    if (eduEl) {
+      eduEl.innerHTML = edu.length ? edu.map((ed) => {
+        const dates = [ed.start, ed.end].filter(Boolean).join(" – ");
+        const sub = [ed.degree, ed.field].filter(Boolean).join(", ");
+        return (
+          '<div class="tl-item">' +
+          '<div class="tl-item__head">' +
+          '<span class="tl-item__role">' + esc(ed.institution || "") + "</span>" +
+          (dates ? '<span class="tl-item__date">' + esc(dates) + "</span>" : "") +
+          "</div>" +
+          (sub ? '<div class="tl-item__meta"><span class="tl-item__company">' + esc(sub) + "</span></div>" : "") +
+          (ed.description ? '<p class="tl-item__desc">' + esc(ed.description) + "</p>" : "") +
+          "</div>"
+        );
+      }).join("") : '<p class="empty">No education added yet.</p>';
+    }
+
+    // Projects (featured first) — hide the whole section + nav link when empty
     const projects = (data.projects || []).slice().sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0));
+    const projectsSection = document.getElementById("projects");
+    const projectsNav = document.querySelector('a[href="#projects"]');
+    if (projectsSection) projectsSection.hidden = projects.length === 0;
+    if (projectsNav) projectsNav.hidden = projects.length === 0;
     document.getElementById("projectsList").innerHTML = projects.length ? projects.map((pr) => {
       const img = pr.image ? '<img src="' + esc(pr.image) + '" alt="' + esc(pr.title) + '">' : esc(initials(pr.title));
       const tech = (pr.tech || []).map((t) => '<span class="chip">' + esc(t) + "</span>").join("");

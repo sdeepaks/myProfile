@@ -16,14 +16,14 @@ A fast, professional, **static** portfolio site — no backend, no database, no 
 
 You have two options:
 
-**A. Use the admin editor (recommended)**
-1. Open `admin.html` in your browser.
-2. Edit Profile, Experience, Skills, Certifications, Projects. Changes autosave in your browser as you type.
+**A. Use the admin editor (recommended) — runs locally only**
+1. Start the local server (`node serve.js 8000`) and open `http://localhost:8000/admin.html`.
+2. Edit Profile, Experience, Skills, Certifications, Projects. Changes autosave in your browser as you type, and the admin loads your current `data.json` automatically.
 3. Click **Preview ↗** to see the live result.
 4. When happy, click **⬇ Download data.json**.
 5. Replace the `data.json` in this folder with the downloaded file, then commit & push (see below).
 
-> The admin runs entirely in your browser. It cannot write to the repo directly (static sites have no server), so the workflow is: edit → download `data.json` → commit. The **Import JSON** button lets you reload an existing `data.json` to keep editing later.
+> **The admin is intentionally NOT deployed.** It's listed in `.gitignore`, so it never appears at your public URL — only you can use it, on your own machine. This is the right model for a static site: there's no server to enforce a real login, and any in-page password gate would be trivially bypassable. The admin can only ever produce a `data.json` for you to commit; it cannot change your live site. To edit, run it locally as above. Use **Reset to saved file** to discard browser edits and reload from `data.json`.
 
 **B. Edit `data.json` by hand** — it's plain JSON; just keep the structure.
 

@@ -15,8 +15,6 @@
       <div class="adm-top__actions">
         <span id="dirty" class="adm-badge" hidden>● Unsaved changes</span>
         <button id="previewBtn" class="btn btn--ghost btn--sm">Preview ↗</button>
-        <button id="importBtn" class="btn btn--ghost btn--sm">Import JSON</button>
-        <input type="file" id="importFile" accept="application/json" hidden />
         <button id="exportBtn" class="btn btn--primary btn--sm">⬇ Download data.json</button>
       </div>
     </div>
@@ -33,6 +31,7 @@
       <button class="adm-tab" data-tab="experience">Experience</button>
       <button class="adm-tab" data-tab="skills">Skills</button>
       <button class="adm-tab" data-tab="certifications">Certifications</button>
+      <button class="adm-tab" data-tab="education">Education</button>
       <button class="adm-tab" data-tab="projects">Projects</button>
     </nav>
 
@@ -74,6 +73,11 @@
       <section class="adm-panel" data-panel="certifications">
         <div class="adm-panel__head"><h2>Certifications</h2><button class="btn btn--primary btn--sm" data-add="certifications">+ Add</button></div>
         <div class="adm-list" id="list-certifications"></div>
+      </section>
+
+      <section class="adm-panel" data-panel="education">
+        <div class="adm-panel__head"><h2>Education</h2><button class="btn btn--primary btn--sm" data-add="education">+ Add</button></div>
+        <div class="adm-list" id="list-education"></div>
       </section>
 
       <section class="adm-panel" data-panel="projects">

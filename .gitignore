@@ -1,0 +1,13 @@
+# Admin tooling — kept local only, never deployed to the public site.
+# You run these on your machine to edit content, then commit only data.json.
+admin.html
+js/admin.js
+css/admin.css
+
+# Local preview server + editor config (not needed in production)
+serve.js
+.claude/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
