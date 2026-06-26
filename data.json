@@ -1,0 +1,90 @@
+{
+  "profile": {
+    "name": "Deepak Kushwaha",
+    "title": "Solutions Architect & Full-Stack Developer",
+    "tagline": "I design and build reliable software that solves real business problems.",
+    "about": "Experienced technology professional with a track record of delivering enterprise solutions across cloud, web, and integration platforms. Passionate about clean architecture, automation, and turning complex requirements into simple, maintainable systems.",
+    "email": "deepak.kushwaha@fusion5.com.au",
+    "phone": "",
+    "location": "Australia",
+    "photo": "",
+    "resumeUrl": "",
+    "social": {
+      "github": "https://github.com/",
+      "linkedin": "https://www.linkedin.com/",
+      "website": "",
+      "twitter": ""
+    }
+  },
+  "experience": [
+    {
+      "role": "Solutions Architect",
+      "company": "Fusion5",
+      "location": "Australia",
+      "start": "2022",
+      "end": "",
+      "current": true,
+      "description": "Lead design and delivery of enterprise integration and cloud solutions for clients across multiple industries. Mentor developers and define technical standards."
+    },
+    {
+      "role": "Senior Software Engineer",
+      "company": "Previous Company",
+      "location": "Remote",
+      "start": "2018",
+      "end": "2022",
+      "current": false,
+      "description": "Built and maintained customer-facing web applications and backend services. Drove adoption of CI/CD and automated testing."
+    }
+  ],
+  "skills": [
+    { "name": "JavaScript / TypeScript", "category": "Languages", "level": 90 },
+    { "name": "C# / .NET", "category": "Languages", "level": 85 },
+    { "name": "Python", "category": "Languages", "level": 75 },
+    { "name": "Azure", "category": "Cloud & DevOps", "level": 85 },
+    { "name": "Docker", "category": "Cloud & DevOps", "level": 80 },
+    { "name": "CI/CD", "category": "Cloud & DevOps", "level": 80 },
+    { "name": "React", "category": "Frameworks", "level": 85 },
+    { "name": "Node.js", "category": "Frameworks", "level": 80 },
+    { "name": "SQL / NoSQL", "category": "Data", "level": 85 }
+  ],
+  "certifications": [
+    {
+      "name": "Microsoft Certified: Azure Solutions Architect Expert",
+      "issuer": "Microsoft",
+      "date": "2023",
+      "expiry": "",
+      "credentialId": "",
+      "url": "",
+      "image": ""
+    },
+    {
+      "name": "Microsoft Certified: Azure Developer Associate",
+      "issuer": "Microsoft",
+      "date": "2022",
+      "expiry": "",
+      "credentialId": "",
+      "url": "",
+      "image": ""
+    }
+  ],
+  "projects": [
+    {
+      "title": "Enterprise Integration Platform",
+      "description": "A scalable integration layer connecting CRM, ERP, and third-party services with reliable messaging and monitoring.",
+      "tech": ["Azure", "C#", ".NET", "Service Bus"],
+      "url": "",
+      "repo": "",
+      "image": "",
+      "featured": true
+    },
+    {
+      "title": "Personal Portfolio Website",
+      "description": "This very website — a fast, static, JSON-driven portfolio with a built-in admin editor, hosted free on GitHub Pages.",
+      "tech": ["HTML5", "CSS", "JavaScript"],
+      "url": "",
+      "repo": "",
+      "image": "",
+      "featured": false
+    }
+  ]
+}

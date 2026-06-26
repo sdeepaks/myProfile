@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin — Manage Profile</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/admin.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚙️</text></svg>" />
+</head>
+<body class="admin">
+  <header class="adm-top">
+    <div class="adm-top__inner">
+      <strong class="adm-top__brand">⚙️ Profile Admin</strong>
+      <div class="adm-top__actions">
+        <span id="dirty" class="adm-badge" hidden>● Unsaved changes</span>
+        <button id="previewBtn" class="btn btn--ghost btn--sm">Preview ↗</button>
+        <button id="importBtn" class="btn btn--ghost btn--sm">Import JSON</button>
+        <input type="file" id="importFile" accept="application/json" hidden />
+        <button id="exportBtn" class="btn btn--primary btn--sm">⬇ Download data.json</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="adm-note">
+    Edits are saved in your browser as you type. When done, click <b>Download data.json</b> and replace the
+    <code>data.json</code> file in your repo, then commit &amp; push. <a href="#" id="resetBtn">Reset to saved file</a>
+  </div>
+
+  <div class="adm-layout">
+    <nav class="adm-nav">
+      <button class="adm-tab is-active" data-tab="profile">Profile</button>
+      <button class="adm-tab" data-tab="experience">Experience</button>
+      <button class="adm-tab" data-tab="skills">Skills</button>
+      <button class="adm-tab" data-tab="certifications">Certifications</button>
+      <button class="adm-tab" data-tab="projects">Projects</button>
+    </nav>
+
+    <main class="adm-main">
+      <!-- Profile -->
+      <section class="adm-panel is-active" data-panel="profile">
+        <h2>Profile</h2>
+        <div class="adm-grid">
+          <label>Full name<input data-field="name" /></label>
+          <label>Headline / title<input data-field="title" /></label>
+          <label>Location<input data-field="location" /></label>
+          <label>Email<input data-field="email" type="email" /></label>
+          <label>Phone<input data-field="phone" /></label>
+          <label>Photo URL<input data-field="photo" placeholder="https://… or assets/me.jpg" /></label>
+          <label>CV / Resume URL<input data-field="resumeUrl" placeholder="https://… or assets/cv.pdf" /></label>
+        </div>
+        <label class="adm-full">Tagline<input data-field="tagline" /></label>
+        <label class="adm-full">About<textarea data-field="about" rows="4"></textarea></label>
+        <h3>Social links</h3>
+        <div class="adm-grid">
+          <label>GitHub<input data-social="github" /></label>
+          <label>LinkedIn<input data-social="linkedin" /></label>
+          <label>Website<input data-social="website" /></label>
+          <label>Twitter / X<input data-social="twitter" /></label>
+        </div>
+      </section>
+
+      <!-- Collection panels -->
+      <section class="adm-panel" data-panel="experience">
+        <div class="adm-panel__head"><h2>Experience</h2><button class="btn btn--primary btn--sm" data-add="experience">+ Add</button></div>
+        <div class="adm-list" id="list-experience"></div>
+      </section>
+
+      <section class="adm-panel" data-panel="skills">
+        <div class="adm-panel__head"><h2>Skills</h2><button class="btn btn--primary btn--sm" data-add="skills">+ Add</button></div>
+        <div class="adm-list" id="list-skills"></div>
+      </section>
+
+      <section class="adm-panel" data-panel="certifications">
+        <div class="adm-panel__head"><h2>Certifications</h2><button class="btn btn--primary btn--sm" data-add="certifications">+ Add</button></div>
+        <div class="adm-list" id="list-certifications"></div>
+      </section>
+
+      <section class="adm-panel" data-panel="projects">
+        <div class="adm-panel__head"><h2>Projects</h2><button class="btn btn--primary btn--sm" data-add="projects">+ Add</button></div>
+        <div class="adm-list" id="list-projects"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="js/admin.js"></script>
+</body>
+</html>
