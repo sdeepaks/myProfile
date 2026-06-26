@@ -1,66 +1,130 @@
 {
   "profile": {
     "name": "Deepak Kushwaha",
-    "title": "Solutions Architect & Full-Stack Developer",
-    "tagline": "I design and build reliable software that solves real business problems.",
-    "about": "Experienced technology professional with a track record of delivering enterprise solutions across cloud, web, and integration platforms. Passionate about clean architecture, automation, and turning complex requirements into simple, maintainable systems.",
+    "title": "Integration Architect — MuleSoft · Boomi · Salesforce",
+    "tagline": "10+ years designing and delivering enterprise integration solutions.",
+    "about": "Integration specialist with 10+ years of experience in the analysis, design, and development of enterprise integration solutions. I help organisations connect their applications and data using API-led connectivity and modern iPaaS platforms — primarily MuleSoft Anypoint Platform, Dell Boomi, Salesforce, and Oracle SOA Suite.",
     "email": "deepak.kushwaha@fusion5.com.au",
     "phone": "",
-    "location": "Australia",
+    "location": "Brisbane, Queensland, Australia",
     "photo": "",
     "resumeUrl": "",
     "social": {
-      "github": "https://github.com/",
-      "linkedin": "https://www.linkedin.com/",
+      "github": "",
+      "linkedin": "https://www.linkedin.com/in/sdeepaks413/",
       "website": "",
       "twitter": ""
     }
   },
   "experience": [
     {
-      "role": "Solutions Architect",
-      "company": "Fusion5",
-      "location": "Australia",
-      "start": "2022",
+      "role": "Integration Consultant / Architect",
+      "company": "IntegrationWorks (a Fusion5 company)",
+      "location": "Brisbane, Australia",
+      "start": "",
       "end": "",
       "current": true,
-      "description": "Lead design and delivery of enterprise integration and cloud solutions for clients across multiple industries. Mentor developers and define technical standards."
+      "description": "Design and delivery of enterprise integration solutions for clients using MuleSoft, Dell Boomi and Salesforce. [Add your start date and refine this description in admin.html]"
     },
     {
-      "role": "Senior Software Engineer",
-      "company": "Previous Company",
-      "location": "Remote",
-      "start": "2018",
-      "end": "2022",
+      "role": "Technology Architect",
+      "company": "Accenture",
+      "location": "India",
+      "start": "",
+      "end": "",
       "current": false,
-      "description": "Built and maintained customer-facing web applications and backend services. Drove adoption of CI/CD and automated testing."
+      "description": "Enterprise integration and SOA solution architecture. [Inferred from your Accenture certification — confirm role/dates or remove in admin.html]"
     }
   ],
   "skills": [
-    { "name": "JavaScript / TypeScript", "category": "Languages", "level": 90 },
-    { "name": "C# / .NET", "category": "Languages", "level": 85 },
-    { "name": "Python", "category": "Languages", "level": 75 },
-    { "name": "Azure", "category": "Cloud & DevOps", "level": 85 },
-    { "name": "Docker", "category": "Cloud & DevOps", "level": 80 },
-    { "name": "CI/CD", "category": "Cloud & DevOps", "level": 80 },
-    { "name": "React", "category": "Frameworks", "level": 85 },
-    { "name": "Node.js", "category": "Frameworks", "level": 80 },
-    { "name": "SQL / NoSQL", "category": "Data", "level": 85 }
+    { "name": "MuleSoft Anypoint Platform", "category": "Integration Platforms", "level": 90 },
+    { "name": "Dell Boomi", "category": "Integration Platforms", "level": 80 },
+    { "name": "Oracle SOA Suite", "category": "Integration Platforms", "level": 80 },
+    { "name": "Salesforce", "category": "Platforms & CRM", "level": 80 },
+    { "name": "API-led Connectivity", "category": "Architecture", "level": 90 },
+    { "name": "Solution Architecture", "category": "Architecture", "level": 85 },
+    { "name": "Enterprise Integration Patterns", "category": "Architecture", "level": 85 },
+    { "name": "REST & SOAP APIs", "category": "Engineering", "level": 90 },
+    { "name": "DataWeave", "category": "Engineering", "level": 80 },
+    { "name": "Java", "category": "Engineering", "level": 75 }
   ],
   "certifications": [
     {
-      "name": "Microsoft Certified: Azure Solutions Architect Expert",
-      "issuer": "Microsoft",
-      "date": "2023",
+      "name": "MuleSoft Certified Integration Architect — Level 1",
+      "issuer": "MuleSoft",
+      "date": "Mar 2022",
+      "expiry": "2024",
+      "credentialId": "",
+      "url": "",
+      "image": ""
+    },
+    {
+      "name": "MuleSoft Certified Platform Architect — Level 1",
+      "issuer": "MuleSoft",
+      "date": "Jul 2021",
+      "expiry": "2023",
+      "credentialId": "",
+      "url": "",
+      "image": ""
+    },
+    {
+      "name": "MuleSoft Certified Developer — Level 1 (Mule 4)",
+      "issuer": "MuleSoft",
+      "date": "Mar 2021",
+      "expiry": "2023",
+      "credentialId": "",
+      "url": "",
+      "image": ""
+    },
+    {
+      "name": "Dell Boomi Associate Developer",
+      "issuer": "Dell Boomi",
+      "date": "Apr 2020",
       "expiry": "",
       "credentialId": "",
       "url": "",
       "image": ""
     },
     {
-      "name": "Microsoft Certified: Azure Developer Associate",
-      "issuer": "Microsoft",
-      "date": "2022",
+      "name": "Salesforce Certified Platform App Builder",
+      "issuer": "Salesforce",
+      "date": "Apr 2019",
+      "expiry": "",
+      "credentialId": "",
+      "url": "",
+      "image": ""
+    },
+    {
+      "name": "Technology Architect Associate",
+      "issuer": "Accenture",
+      "date": "Nov 2017",
+      "expiry": "",
+      "credentialId": "",
+      "url": "",
+      "image": ""
+    },
+    {
+      "name": "Mule Certified Architect — Solution Design Specialist",
+      "issuer": "MuleSoft",
+      "date": "Oct 2017",
+      "expiry": "",
+      "credentialId": "",
+      "url": "",
+      "image": ""
+    },
+    {
+      "name": "Oracle SOA Suite 12c Essentials",
+      "issuer": "Oracle",
+      "date": "2016",
+      "expiry": "",
+      "credentialId": "",
+      "url": "",
+      "image": ""
+    },
+    {
+      "name": "Oracle SOA Suite 11g Essentials",
+      "issuer": "Oracle",
+      "date": "2015",
       "expiry": "",
       "credentialId": "",
       "url": "",
@@ -70,21 +134,12 @@
   "projects": [
     {
       "title": "Enterprise Integration Platform",
-      "description": "A scalable integration layer connecting CRM, ERP, and third-party services with reliable messaging and monitoring.",
-      "tech": ["Azure", "C#", ".NET", "Service Bus"],
+      "description": "API-led integration layer connecting CRM, ERP and third-party systems with reliable messaging, error handling and monitoring. [Replace with a real project or remove in admin.html]",
+      "tech": ["MuleSoft", "Anypoint Platform", "DataWeave", "REST APIs"],
       "url": "",
       "repo": "",
       "image": "",
       "featured": true
-    },
-    {
-      "title": "Personal Portfolio Website",
-      "description": "This very website — a fast, static, JSON-driven portfolio with a built-in admin editor, hosted free on GitHub Pages.",
-      "tech": ["HTML5", "CSS", "JavaScript"],
-      "url": "",
-      "repo": "",
-      "image": "",
-      "featured": false
     }
   ]
 }
